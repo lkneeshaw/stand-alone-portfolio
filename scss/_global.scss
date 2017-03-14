@@ -11,3 +11,12 @@ figure {
   padding: 1em;
   width: 20em;
 }
+
+body {
+    color: #2d200c;
+    background: linear-gradient(
+    rgba(155, 185, 146, 0.45), 
+    rgba(155, 185, 146, 0.45)
+    ),
+    url(../img/subtle_white_mini_waves.png);
+}
