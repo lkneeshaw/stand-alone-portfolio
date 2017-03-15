@@ -33,9 +33,9 @@ figure {
       background: #fffbf3;
       display: flex;
       flex-wrap: wrap;
-      justify-content: stretch;
       padding: 1em;
       width: 25%;
+    max-width: 300px;
     
     img {
         width: 100%;
