@@ -1,22 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+header {
+    display: flex;
+    justify-content: center;
+        background: linear-gradient(
+        rgba(45, 32, 3, 0.8), 
+        rgba(45, 32, 3, 0.8)
+        ),
+        url(../img/apple-valley.gif);
+    background-size: cover;
+    border-bottom: 5px solid #c5492d;
+}
+
+#title {
+    color: #9bb992;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 90px auto;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.15em;
+}
+
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
 }
 
 figure {
-  background: #eee;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1em;
-  width: 20em;
+      background: #fffbf3;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: stretch;
+      padding: 1em;
+      width: 25%;
+    
+    img {
+        width: 100%;
+    }
 }
 
 body {
-    color: #2d200c;
+        color: #2d200c;
+        background: linear-gradient(
+        rgba(155, 185, 146, 0.45), 
+        rgba(155, 185, 146, 0.45)
+        ),
+        url(../img/subtle_white_mini_waves.png);
+    }
+
+footer {
+    display: flex;
+    justify-content: center;
     background: linear-gradient(
-    rgba(155, 185, 146, 0.45), 
-    rgba(155, 185, 146, 0.45)
+    rgba(45, 32, 3, 0.8), 
+    rgba(45, 32, 3, 0.8)
     ),
-    url(../img/subtle_white_mini_waves.png);
+    url(../img/apple-valley.gif);
+    background-position: bottom;
+    background-size: cover;
+    border-top: 5px solid #c5492d;
+    
+    p {
+        font-family: 'Raleway', sans-serif; 
+        font-size: 1em;
+        color: #9bb992;
+        padding: 30px;
+    }
 }
