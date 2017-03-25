@@ -34,11 +34,10 @@ figure {
       display: flex;
       flex-wrap: wrap;
       padding: 1em;
-      width: 25%;
-    max-width: 300px;
     
     img {
         width: 100%;
+        justify-content: center;
     }
 }
 
